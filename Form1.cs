@@ -119,7 +119,7 @@ namespace giao_diện_bán_hàng
 
             foreach (SanPham sanPham in giohang)
             {
-                tongSoLuong += 1;
+                tongSoLuong += sanPham.Soluong;
                 tongGiaTri += sanPham.Gia * sanPham.Soluong;
             }
 

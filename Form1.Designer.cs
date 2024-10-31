@@ -51,12 +51,12 @@
             dataGridViewsanpham.Location = new Point(6, 39);
             dataGridViewsanpham.Name = "dataGridViewsanpham";
             dataGridViewsanpham.RowHeadersWidth = 51;
-            dataGridViewsanpham.Size = new Size(514, 569);
+            dataGridViewsanpham.Size = new Size(657, 569);
             dataGridViewsanpham.TabIndex = 0;
             // 
             // buttonthem
             // 
-            buttonthem.Location = new Point(357, 636);
+            buttonthem.Location = new Point(500, 636);
             buttonthem.Name = "buttonthem";
             buttonthem.Size = new Size(163, 29);
             buttonthem.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             // buttonxoa
             // 
-            buttonxoa.Location = new Point(225, 506);
+            buttonxoa.Location = new Point(370, 510);
             buttonxoa.Name = "buttonxoa";
             buttonxoa.Size = new Size(174, 29);
             buttonxoa.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             // buttonthanhtoan
             // 
-            buttonthanhtoan.Location = new Point(833, 688);
+            buttonthanhtoan.Location = new Point(1093, 688);
             buttonthanhtoan.Name = "buttonthanhtoan";
             buttonthanhtoan.Size = new Size(142, 29);
             buttonthanhtoan.TabIndex = 3;
@@ -87,10 +87,10 @@
             // dataGridViewgiohang
             // 
             dataGridViewgiohang.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewgiohang.Location = new Point(6, 39);
+            dataGridViewgiohang.Location = new Point(22, 39);
             dataGridViewgiohang.Name = "dataGridViewgiohang";
             dataGridViewgiohang.RowHeadersWidth = 51;
-            dataGridViewgiohang.Size = new Size(393, 452);
+            dataGridViewgiohang.Size = new Size(522, 452);
             dataGridViewgiohang.TabIndex = 4;
             // 
             // groupBox1
@@ -99,7 +99,7 @@
             groupBox1.Controls.Add(buttonthem);
             groupBox1.Location = new Point(16, 17);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(535, 682);
+            groupBox1.Size = new Size(669, 682);
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             groupBox1.Text = "Danh sách sản phẩm ";
@@ -113,9 +113,9 @@
             groupBox2.Controls.Add(label1);
             groupBox2.Controls.Add(dataGridViewgiohang);
             groupBox2.Controls.Add(buttonxoa);
-            groupBox2.Location = new Point(566, 17);
+            groupBox2.Location = new Point(691, 17);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(409, 665);
+            groupBox2.Size = new Size(567, 665);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
             groupBox2.Text = "Giỏ hàng ";
@@ -157,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1006, 729);
+            ClientSize = new Size(1270, 729);
             Controls.Add(groupBox2);
             Controls.Add(buttonthanhtoan);
             Controls.Add(groupBox1);
